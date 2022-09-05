@@ -1,0 +1,23 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #222;
+    background: black;
+    font-family: monospace;
+}
+h2 {
+    font-size: 3em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+h2:hover{
+    color: #222;
+    text-shadow: 0 0 5px lightsteelblue,
+                0 0 25px lightsteelblue,
+                0 0 50px lightsteelblue,
+                0 0 100px lightsteelblue;
+}
